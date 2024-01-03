@@ -1,0 +1,31 @@
+The Course Registration System (SCRS2) is a Java-based application designed to
+manage course registrations for students in an educational institution. At its 
+core, the system consists of several Java classes, each playing a specific role 
+in ensuring the smooth functioning of the registration process.
+
+Starting with the SCRS2 class, it serves as the entry point for the application,
+initializing a graphical user interface (GUI) using Java's Swing framework. Upon
+launching, the main JFrame window is set up, encapsulating a MenuPanel that
+provides a user-friendly interface for course registration operations.
+
+Two primary entities govern the core functionalities: Students and Courses. The
+Student class defines a student's attributes, such as a unique studentID and a 
+name. Additionally, it manages a set of courses for which a student is registered
+or has dropped. On the other hand, the Course class represents individual courses, 
+including details like courseCode, title, description, capacity, and schedule. 
+Functionality within this class allows students to register or drop courses based on available slots.
+
+Facilitating interactions between the GUI and persistent storage is the CourseRegistrationSystem class.
+This intermediary class leverages the DatabaseManager class, which employs JDBC to interact with a
+MySQL database. The DatabaseManager handles operations like fetching course and student data from the 
+database and updating records when a student registers or drops a course.
+
+Now, diving into the GUI aspect, the MenuPanel class is pivotal. It presents a table listing
+available courses and buttons for essential actions: displaying courses, registering students,
+dropping courses, and exiting the application. The table dynamically updates its content based
+on operations performed, ensuring real-time visibility into available slots for each course.
+
+In essence, the SCRS2 project amalgamates database operations, student-course relationships,
+and a user-friendly interface to streamline the course registration process. By leveraging Java's 
+capabilities, it offers educators an efficient tool to manage enrollments while providing students an
+accessible platform to select and register for courses of their choice.
