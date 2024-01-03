@@ -7,7 +7,7 @@ public class DatabaseManager {
     // Database connection details.
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/course_registration_system";
     private static final String JDBC_USER = "root";
-    private static final String JDBC_PASSWORD = "Shekar@12345";
+    private static final String JDBC_PASSWORD = "Password";
 
     // HashMaps to store courses and students fetched from the database.
     public Map<String, Course> courses = new HashMap<>();
