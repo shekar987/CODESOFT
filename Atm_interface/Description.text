@@ -1,0 +1,25 @@
+The AtmInterface project is a simple Java-based ATM simulation designed to offer basic banking functionalities such as withdrawal, deposit, 
+and balance checking. At its core, the system revolves around an interactive menu-driven approach where users can navigate through different options 
+to manage their account.
+
+Upon initiating the program, users are presented with a menu displaying four primary options:
+
+Withdraw: This option prompts users to enter an amount they wish to withdraw from their account. If the requested amount is available, the system 
+processes the withdrawal, deducting the amount from theaccount balance. However, if the user attempts to withdraw more than the available balance,
+a message indicating insufficient funds is displayed.
+
+Deposit: Here, users can input an amount they intend to deposit into their account. Once confirmed, the system updates the account balance by adding
+the deposited amount, ensuring the balance reflects the latest financial activity.
+
+Check Balance: This straightforward option allows users to retrieve and view their current account balance instantly, providing them with a snapshot 
+of their financial status.
+
+Exit: Lastly, users have the liberty to exit the ATM interface, concluding their session and terminating the program execution.
+
+Driving the functionalities is the UserBankAccount class, which serves as the backbone of the ATM simulation. This class encapsulates essential
+attributes and methods pertinent to a typical bank account. The balance attribute tracks the current account balance, initialized to 500 units
+in this implementation. Methods like withdraw(int amount) and deposit(int amount) facilitate the withdrawal and deposit operations, respectively. 
+For withdrawals, the system validates the availability of funds before processing, while deposits directly augment the existing balance.
+
+Overall, the AtmInterface project exemplifies a foundational ATM system, providing users with a streamlined interface to conduct fundamental
+banking operations within the confines of a console-based application.
