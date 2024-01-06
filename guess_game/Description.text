@@ -1,0 +1,13 @@
+The Guess_number_game Java program is a simple number guessing game that allows users to guess a randomly generated number between
+1 and 100 within a limited number of attempts. The game starts by initializing essential components, including a Scanner for user input 
+and a Random object to generate the target number.
+
+Upon execution, the game prompts users to play multiple rounds. In each round, a random number between 1 and 100 is generated as the target.
+The user then has up to 8 attempts to guess this number correctly. After each guess, the program provides feedback, indicating whether the
+guess is too high or too low, and informs the user about the remaining attempts. If the user correctly guesses the number within the allotted 
+attempts, they win the round, and the game tracks the total number of rounds won.
+
+The game continues in a loop, allowing users to play multiple rounds if desired. After each round, users are prompted to decide whether 
+they want to continue playing. Upon opting out, the program displays the total number of rounds won. However, if users exceed the maximum
+number of attempts in any round without guessing correctly, the game reveals the correct number, signaling the end of that specific round.
+Overall, the Guess_number_game provides an engaging and interactive experience centered on probability and guessing skills.
