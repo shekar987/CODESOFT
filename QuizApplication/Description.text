@@ -1,0 +1,8 @@
+The QuizApp is a Java-based interactive quiz application designed to challenge userswith a series of multiple-choice questions. 
+The application integrates a graphical user interface (GUI) built using Swing components, providing an intuitive user experience. Upon launching, 
+the user is presented with questions on various topics, ranging from geography to literature. Each question has a time limit, and users must select 
+the correct answer from the provided options within this timeframe.A timer keeps track of the remaining time for each question, enhancing the sense
+of urgency and engagement.After answering all questions or when time runs out, the application displays the user's score and highlights
+correct/incorrect responses. Users have the option to replay the quiz or exit the application. The underlying structure employs a Question class 
+to encapsulate individual questions, making the application modular and scalable. Overall, the QuizApp offers an interactive platform for users 
+to test their knowledge, combining Java programming with a user-centric design approach.
