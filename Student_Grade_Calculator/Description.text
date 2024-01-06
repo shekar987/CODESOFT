@@ -1,0 +1,4 @@
+The StudentGradeCalculator is a Java program that helps users determine a student's grade based on their scores in different subjects. 
+Users input the subject names and marks, and the program calculates the total marks and average percentage.
+Then, it assigns a grade (like A, B, C, etc.) based on the average percentage. Finally, it displays the total marks, 
+average percentage, and grade to provide a clear assessment of the student's performance.
